@@ -1,0 +1,18 @@
+{
+  "name": "hdwallet_rsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp configure build",
+    "install-verbose": "node-gyp configure build --verbose",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "node-gyp": "^7.0.0"
+  }
+}
