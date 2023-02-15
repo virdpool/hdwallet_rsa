@@ -1,5 +1,5 @@
 # hdwallet_rsa
-hd wallet for arweave rsa keys
+deterministic wallet generation for arweave RSA keys
 
 deps
 ```
