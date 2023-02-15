@@ -12,3 +12,5 @@ install
 ```
 npm i virdpool/hdwallet_rsa
 ```
+
+Note. This mode is slower than non-deterministic version, because I use SHA2 intensively for PRNG (used for prime numbers generator)
